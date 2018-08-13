@@ -1,0 +1,6 @@
+> -cur_console:d:C:\chorus "%ConEmuDir%\..\Git\git-cmd.exe" --no-cd --command=usr/bin/bash.exe -l -i
+* -cur_console:d:C:\chorus\Chorus.Bud.Developer.Helpers "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
+-cur_console:d:C:\chorus\Chorus.Bud.Infrastructure "%ConEmuDir%\..\Git\git-cmd.exe" --no-cd --command=usr/bin/bash.exe -l -i
+* -cur_console:d:C:\chorus\Chorus.Bud.Infrastructure\_developer.helpers "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
+-cur_console:d:C:\chorus\Chorus.Bud.Web\Chorus.Bud.Web "%ConEmuDir%\..\Git\git-cmd.exe" --no-cd --command=usr/bin/bash.exe -l -i
+-cur_console:d:C:\chorus\Chorus.Bud.Web\Chorus.Bud.Web "%ConEmuDir%\..\Git\git-cmd.exe" --no-cd --command=usr/bin/bash.exe -l -i

@@ -1,0 +1,8 @@
+
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "ctrl+left",           "command": "cursorWordPartStartLeft",
+                                        "when": "textInputFocus" },
+    { "key": "ctrl+right",          "command": "cursorWordPartRight",
+                                        "when": "textInputFocus" },
+]

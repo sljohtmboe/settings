@@ -1,0 +1,51 @@
+[alias]
+	br = branch
+	ci = commit
+	co = checkout
+	cob = checkout -b
+	cp = cherry-pick
+	df = diff
+	dft = difftool
+	dftdd = difftool --dir-diff
+	dfs = diff --stat=120
+	dfw = diff --color-words
+	gp = grep --color --break --heading -n
+	log1 = log --pretty=format:\"%h %Cgreen[%ar] %aN %Creset%s\"
+	logg = log --pretty=format:\"%h - %an, %ar : %s\" --graph
+	logs = log --stat-width=250 --stat-name-width=200 --stat-graph-width=10
+	logt = log --author='Foo\\|Bar\\|Baz'
+	lg = log -p
+	lgw = log -p --color-words
+	lgt = log -p --author='Foo\\|Bar\\|Baz'
+	phm = push origin HEAD:master
+	rso = remote show origin
+	rom = rebase -p origin/master
+	rod = rebase -p origin/develop
+	st = status -b -uall
+	sd = !git st && git dft
+	mg = merge
+	mgt = mergetool
+	mgnff = merge --no-ff
+	wc = whatchanged
+	wip = !git add -A && git ci -m WIP
+[pull]
+	rebase = true
+[push]
+	default = current
+[merge]
+	ff = no
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+[core]
+	editor = \"C:/Program Files (x86)/GitExtensions/GitExtensions.exe\" fileeditor
+	commentChar = ";"
+[user]
+	name = Roman Kingsland
+	email = roman.kingsland@bud.co.uk
+[fetch]
+	prune = true

@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.renderWhitespace": "all",
+    "window.zoomLevel": -1,
+    "editor.wordWrap": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "right",
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "vsicons.projectDetection.autoReload": true
+}
